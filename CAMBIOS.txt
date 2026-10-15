@@ -1,0 +1,11 @@
+NOVEDADES PENDIENTES (para la próxima release)
+===============================================
+- Tabla FIRMAS DE ESCANEO en el diario de minería (26 minerales + cómo usarla).
+- Hangares con nombre completo (pequeño/mediano/grande/extragrande).
+- UDS./UDS en vez de UNIDADES (cabe en los cajetines).
+- 14 tags [Láser minero|S..] traducidos.
+- Traje interior (antes Sototraje, 11 claves).
+- Vehiculo sin tilde en terminales (23 claves, la fuente no tiene Í).
+- 5 briefings MT completos + VESTiBULO + tecla W + 7 dígitos + %seguro.
+- Bloque MATERIALES en 1.270 fabricables (solo edición MAX).
+- 0 errores graves (checker).
