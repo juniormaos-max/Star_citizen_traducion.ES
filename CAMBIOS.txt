@@ -8,4 +8,5 @@ NOVEDADES PENDIENTES (para la próxima release)
 - Vehiculo sin tilde en terminales (23 claves, la fuente no tiene Í).
 - 5 briefings MT completos + VESTiBULO + tecla W + 7 dígitos + %seguro.
 - Bloque MATERIALES en 1.270 fabricables (solo edición MAX).
+- Stats de módulos de naves en español + tags [MIL-S1-B] (solo edición MAX).
 - 0 errores graves (checker).
