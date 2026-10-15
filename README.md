@@ -20,7 +20,7 @@ WEB DE LA COMPAÑÍA CCBE
 https://ccbe.space/
 
 
-# :point_down:Descarga:point_down:
+# :Descarga:
 :point_right:  [Ultima versión ](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases) :point_left:
 
 #Dame tu apoyo en RSI
