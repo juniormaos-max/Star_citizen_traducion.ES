@@ -27,3 +27,22 @@ https://ccbe.space/
 # Instalación
 Descomprime el contenido del Zip en la raiz de instalación de SC ejemplo: `C:\Program Files\Roberts Space Industries\StarCitizen\`
 
+# Muestra (edición MAX)
+![Estadísticas](imagenes/Screenshot_16.png)
+
+La parte de **ESTADÍSTICAS** (peso, cadencia, daño, DPS, munición, velocidad, alcance, consumo...) son datos del propio juego: la traducción solo les puso las etiquetas en español para que salgan visibles. Solo disponible en la edición MAX.
+
+![Materiales](imagenes/Screenshot_20.png)
+
+La parte de **MATERIALES** (lo necesario para fabricar cada objeto) también son datos del juego. De momento está desactivada porque se solapaba con la tabla del fabricador; volverá en una futura versión.
+
+![Firmas de escaneo](imagenes/Screenshot_25.png)
+
+La tabla de **FIRMAS DE ESCANEO** está en el diario de minería del mobiGlas: relaciona cada mineral con su firma para identificarlo al escanear.
+
+# Contratos: antes y ahora
+![Contratos antes](imagenes/contratos_antes.png)
+![Contratos ahora](imagenes/contratos_ahora.png)
+
+En los contratos, la rep aparece en los detalles de cada misión, no en la parte de títulos.
+
