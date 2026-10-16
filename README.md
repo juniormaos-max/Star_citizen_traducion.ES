@@ -40,6 +40,10 @@ La parte de **MATERIALES** (lo necesario para fabricar cada objeto) también son
 
 La tabla de **FIRMAS DE ESCANEO** está en el diario de minería del mobiGlas: relaciona cada mineral con su firma para identificarlo al escanear.
 
+![Ubicaciones](imagenes/Screenshot_3.png)
+
+Las fichas de materiales traen sus **UBICACIONES** (dónde encontrarlos) y los **DATOS BLUEPRINT** (en qué se usan para fabricar), sacados de los datos del juego.
+
 # Contratos: antes y ahora
 ![Contratos antes](imagenes/contratos_antes.png)
 ![Contratos ahora](imagenes/contratos_ahora.png)

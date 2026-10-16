@@ -15,6 +15,7 @@ TRADUCCION NORMAL (Star_citizen_ES + latam)
 - Planetas con su nombre (Terminus, Monox, Bloom) + jurisdicciones (Sin gobierno...).
 - Contratos: títulos limpios sin [BP]/rep repetido; detalles completos.
 - COMB H2 / COMB QT en el HUD de combustible.
+- Ubicaciones en 22 fichas más de materiales (de 26 a 48).
 - 0 errores graves (checker).
 
 TRADUCCION MAX (Star_citizen_ES_MAX + latam) = todo lo normal, más:
