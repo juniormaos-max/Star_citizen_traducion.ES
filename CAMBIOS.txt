@@ -1,12 +1,25 @@
-NOVEDADES PENDIENTES (para la próxima release)
-===============================================
-- Tabla FIRMAS DE ESCANEO en el diario de minería (26 minerales + cómo usarla).
+NOVEDADES REV2 (4.10.2)
+=======================
+
+TRADUCCION NORMAL (Star_citizen_ES + latam)
+- Juego completo en español (90.946 claves del juego + extras).
+- Tabla FIRMAS DE ESCANEO en el diario de minería del mobiGlas (26 minerales + cómo usarla).
 - Hangares con nombre completo (pequeño/mediano/grande/extragrande).
 - UDS./UDS en vez de UNIDADES (cabe en los cajetines).
-- 14 tags [Láser minero|S..] traducidos.
-- Traje interior (antes Sototraje, 11 claves).
-- Vehiculo sin tilde en terminales (23 claves, la fuente no tiene Í).
-- 5 briefings MT completos + VESTiBULO + tecla W + 7 dígitos + %seguro.
-- Bloque MATERIALES en 1.270 fabricables (solo edición MAX).
-- Stats de módulos de naves en español + tags [MIL-S1-B] (solo edición MAX).
+- Tags [Láser minero|S..] traducidos + Traje interior (antes Sototraje).
+- Vehiculo sin tilde en terminales (la fuente no tiene Í) + VESTiBULO + tecla W + dígitos + %seguro.
+- 5 briefings MT completos.
+- ~2.000 textos rescatados que no existen ni en inglés: pinturas de naves, mapa estelar, HUD, elevadores de carga, crafteo, tiendas, objetos, armería, terminales, puntos del mapa.
+- 27 descripciones resumidas completadas (Hurston, Chiron, Vulcan, Ballista, ATLS, commodities, emails Pyro, SOO...).
+- 108 nombres de producto (propulsores, portamisiles, escudos, torretas, radares, ropa, dados...).
+- Planetas con su nombre (Terminus, Monox, Bloom) + jurisdicciones (Sin gobierno...).
+- Contratos: títulos limpios sin [BP]/rep repetido; detalles completos.
+- COMB H2 / COMB QT en el HUD de combustible.
 - 0 errores graves (checker).
+
+TRADUCCION MAX (Star_citizen_ES_MAX + latam) = todo lo normal, más:
+- Tags cortos [MIL-S1-B] solo donde aportan (sin repetir el sufijo descriptivo).
+- Bloques ESTADÍSTICAS en español en 1.195 fichas (peso, cadencia, daño, DPS...).
+- BLUEPRINTS POTENCIALES + DATOS DE PLANOS + ubicaciones en misiones y objetos.
+- Líneas de reputación en los detalles de contrato.
+- (El bloque MATERIALES se retiró: solapaba la tabla nativa del fabricador.)
