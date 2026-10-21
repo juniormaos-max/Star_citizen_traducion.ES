@@ -15,7 +15,8 @@ TRADUCCION NORMAL (Star_citizen_ES + latam)
 - Planetas con su nombre (Terminus, Monox, Bloom) + jurisdicciones (Sin gobierno...).
 - Contratos: títulos limpios sin [BP]/rep repetido; detalles completos.
 - COMB H2 / COMB QT en el HUD de combustible.
-- Ubicaciones en 22 fichas más de materiales (de 26 a 48).
+- Ubicaciones en 48 fichas de materiales (de 26 a 48, con 22 nuevos bloques).
+- Sección USOS / BLUEPRINTS en el diario de minería (qué se fabrica con cada mineral).
 - 0 errores graves (checker).
 
 TRADUCCION MAX (Star_citizen_ES_MAX + latam) = todo lo normal, más:
@@ -24,3 +25,8 @@ TRADUCCION MAX (Star_citizen_ES_MAX + latam) = todo lo normal, más:
 - BLUEPRINTS POTENCIALES + DATOS DE PLANOS + ubicaciones en misiones y objetos.
 - Líneas de reputación en los detalles de contrato.
 - (El bloque MATERIALES se retiró: solapaba la tabla nativa del fabricador.)
+
+Verificado hoy:
+tecla W, hangar grande/mediano/pequeño/extragrande, VESTIBULO,
+firma 4.10.2, dígitos, UDS., Atención al paciente, UDM 9 tokens,
+0 tags ingleses, 0 NOT FOUND, 0 errores graves.
