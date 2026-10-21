@@ -34,7 +34,7 @@ La parte de **ESTADÍSTICAS** (peso, cadencia, daño, DPS, munición, velocidad,
 
 ![Materiales](imagenes/Screenshot_20.png)
 
-La parte de **MATERIALES** (lo necesario para fabricar cada objeto) también son datos del juego. De momento está desactivada porque se solapaba con la tabla del fabricador; volverá en una futura versión.
+La parte de **MATERIALES** (lo necesario para fabricar cada objeto) también son datos del juego. Ya vuelve a estar activada.
 
 ![Firmas de escaneo](imagenes/Screenshot_25.png)
 
