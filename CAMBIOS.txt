@@ -29,5 +29,5 @@ TRADUCCION MAX (Star_citizen_ES_MAX + latam) = todo lo normal, más:
 - Bloques ESTADÍSTICAS en español en 1.195 fichas (peso, cadencia, daño, DPS...).
 - BLUEPRINTS POTENCIALES + DATOS DE PLANOS + ubicaciones en misiones y objetos.
 - Líneas de reputación en los detalles de contrato.
-- (El bloque MATERIALES se retiró: solapaba la tabla nativa del fabricador.)
+- Bloque MATERIALES en 1.270 fabricables (lista de ingredientes al ver el objeto).
 
