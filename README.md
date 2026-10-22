@@ -27,7 +27,7 @@ https://ccbe.space/
 # Instalación
 Descomprime el contenido del Zip en la raiz de instalación de SC ejemplo: `C:\Program Files\Roberts Space Industries\StarCitizen\`
 
-# Muestra (edición MAX)
+# Muestra 
 ![Estadísticas](imagenes/Screenshot_16.png)
 
 La parte de **ESTADÍSTICAS** (peso, cadencia, daño, DPS, munición, velocidad, alcance, consumo...) son datos del propio juego: la traducción solo les puso las etiquetas en español para que salgan visibles. Solo disponible en la edición MAX.
