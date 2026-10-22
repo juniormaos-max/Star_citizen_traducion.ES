@@ -44,6 +44,10 @@ La tabla de **FIRMAS DE ESCANEO** está en el diario de minería del mobiGlas: r
 
 Las fichas de materiales traen sus **UBICACIONES** (dónde encontrarlos) y los **DATOS BLUEPRINT** (en qué se usan para fabricar), sacados de los datos del juego.
 
+![Ubicaciones](imagenes/mineria.png)
+
+En las misiones de minaria **DETALLES DE MISION** ahora sale las firmas de los materiales.
+
 # Contratos: antes y ahora
 ![Contratos antes](imagenes/contratos_antes.png)
 ![Contratos ahora](imagenes/contratos_ahora.png)
