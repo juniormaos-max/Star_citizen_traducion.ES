@@ -1,13 +1,16 @@
-NOVEDADES REV2 (4.10.2)
-=======================
+NOVEDADES 4.10.2
+=================
 
-TRADUCCION NORMAL (Star_citizen_ES + latam)
+TRADUCCION (Star_citizen_ES + Star_citizen_ES_latam)
 - Juego completo en español (90.946 claves del juego + extras).
-- Tabla FIRMAS DE ESCANEO en el diario de minería del mobiGlas (26 minerales + cómo usarla).
+- Diario de minería completo en el mobiGlas:
+  * Fundamentos, Escaneo, Fractura, Extracción.
+  * Tabla FIRMAS DE ESCANEO (26 minerales + cómo usarla).
+  * Sección USOS / BLUEPRINTS (qué se fabrica con cada mineral, 26 minerales con sus recetas).
 - Hangares con nombre completo (pequeño/mediano/grande/extragrande).
 - UDS./UDS en vez de UNIDADES (cabe en los cajetines).
 - Tags [Láser minero|S..] traducidos + Traje interior (antes Sototraje).
-- Vehiculo sin tilde en terminales (la fuente no tiene Í) + VESTiBULO + tecla W + dígitos + %seguro.
+- Vehiculo sin tilde en terminales (la fuente no tiene Í) + VESTIBULO + tecla W + dígitos + %seguro.
 - 5 briefings MT completos.
 - ~2.000 textos rescatados que no existen ni en inglés: pinturas de naves, mapa estelar, HUD, elevadores de carga, crafteo, tiendas, objetos, armería, terminales, puntos del mapa.
 - 27 descripciones resumidas completadas (Hurston, Chiron, Vulcan, Ballista, ATLS, commodities, emails Pyro, SOO...).
@@ -16,24 +19,12 @@ TRADUCCION NORMAL (Star_citizen_ES + latam)
 - Contratos: títulos limpios sin [BP]/rep repetido; detalles completos.
 - COMB H2 / COMB QT en el HUD de combustible.
 - Ubicaciones en 48 fichas de materiales (de 26 a 48, con 22 nuevos bloques).
-- Sección USOS / BLUEPRINTS en el diario de minería (qué se fabrica con cada mineral, 26 minerales con sus recetas).
-- 0 errores graves (checker).
+- Lotes de corrección aplicados:
+  1. Comillas \" → " en todo el texto.
+  2. Etiquetas inglesas traducidas (Item Type:, Heavy/Medium/Light Armor, Damage Reduction:, Temp. Rating:, Radiation Protection:, Radiation Scrub Rate:, Carrying Capacity:, Core Compatibility:, Backpacks:, All).
+  3. Interrogaciones: ¿ de apertura añadida donde faltaba.
+- SCU mantenido como en original (no traducido a UCE).
+- 0 errores graves (checker): 0 tags ingleses, 0 NOT FOUND, 0 errores graves.
 
-Verificado hoy:
-tecla W, hangar grande/mediano/pequeño/extragrande, VESTIBULO,
-firma 4.10.2, dígitos, UDS., Atención al paciente, UDM 9 tokens,
-0 tags ingleses, 0 NOT FOUND, 0 errores graves.
-- Diario de minería completo en español (Fundamentos, Escaneo, Fractura, Extracción).
-- Sección USOS / BLUEPRINTS en el diario de minería (qué se fabrica con cada mineral, 26 minerales con sus recetas).
-
-TRADUCCION MAX (Star_citizen_ES_MAX + latam) = todo lo normal, más:
-- Tags cortos [MIL-S1-B] solo donde aportan (sin repetir el sufijo descriptivo).
-- Bloques ESTADÍSTICAS en español en 1.195 fichas (peso, cadencia, daño, DPS...).
-- BLUEPRINTS POTENCIALES + DATOS DE PLANOS + ubicaciones en misiones y objetos.
-- Líneas de reputación en los detalles de contrato.
-- Bloque MATERIALES en 1.270 fabricables (lista de ingredientes al ver el objeto).
-
-Verificado hoy:
-tecla W, hangar grande/mediano/pequeño/extragrande, VESTIBULO,
-firma 4.10.2, dígitos, UDS., Atención al paciente, UDM 9 tokens,
-0 tags ingleses, 0 NOT FOUND, 0 errores graves.
+Verificado:
+tecla W, hangar grande/mediano/pequeño/extragrande, VESTIBULO, firma 4.10.2, dígitos, UDS., Atención al paciente, UDM 9 tokens.
