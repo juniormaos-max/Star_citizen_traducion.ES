@@ -48,6 +48,18 @@ Las fichas de materiales traen sus **UBICACIONES** (dónde encontrarlos) y los *
 
 En las misiones de minaria **DETALLES DE MISION** ahora sale las firmas de los materiales.
 
+# Antes y ahora
+![Ubicaciones](imagenes/levskiantes.png)
+![Ubicaciones](imagenes/levskiahora.png)
+
+Esta es la pantalla del ascensor en Nyx (Levski): antes ponía **A ADUANAS** y ahora **ADUANAS**. Es distinta al resto de pantallas de ascensores.
+![Ubicaciones](imagenes/aduanaslesvki.png)
+Al salir del ascensor en Levski está la aduana en el juego, y en el global.ini lo dejo tal cual: **ADUANAS**.
+
+![Ubicaciones](imagenes/cuasi.png)
+
+Criaturas en new babbage ** CUASI PASTADOR DE LA TUNDRA**
+
 # Contratos: antes y ahora
 ![Contratos antes](imagenes/contratos_antes.png)
 ![Contratos ahora](imagenes/contratos_ahora.png)
