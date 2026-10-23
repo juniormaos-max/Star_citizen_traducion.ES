@@ -36,6 +36,14 @@ La parte de **ESTADÍSTICAS** (peso, cadencia, daño, DPS, munición, velocidad,
 
 La parte de **MATERIALES** (lo necesario para fabricar cada objeto) también son datos del juego. Ya vuelve a estar activada.
 
+![Materiales](imagenes/armakarna.png)
+
+La parte de **DETALLES Y MATERIALES** (lo necesario para fabricar) y la parte de detalles de la arma, también son datos del juego.
+
+![Materiales](imagenes/cargador.png)
+
+La parte de **MATERIALES** (lo necesario para fabricar cada objeto) también son datos del juego. 
+
 ![Firmas de escaneo](imagenes/Screenshot_25.png)
 
 La tabla de **FIRMAS DE ESCANEO** está en el diario de minería del mobiGlas: relaciona cada mineral con su firma para identificarlo al escanear.
