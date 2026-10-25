@@ -1,0 +1,4 @@
+*.ini text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+*.zip binary
