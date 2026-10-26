@@ -31,15 +31,13 @@ El proyecto se construye sobre un pipeline propio de varias etapas de revisión 
 ## 📥 Instalación paso a paso
 
 1. **Descarga** la última versión desde los [releases](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases).
-2. **Haz una copia de seguridad** del archivo `global.ini` original de tu instalación de Star Citizen (por si necesitas revertir).
-3. **Descomprime** el contenido del ZIP en la raíz de instalación de Star Citizen, por ejemplo:
+2. **Descomprime** el contenido del ZIP en la raíz de instalación de Star Citizen, por ejemplo:
 
    ```
    C:\Program Files\Roberts Space Industries\StarCitizen\
    ```
 
-4. **Reemplaza** el `global.ini` existente cuando el sistema te lo solicite.
-5. **Inicia el juego** y verifica que los textos aparezcan en español.
+3. **Inicia el juego** y verifica que los textos aparezcan en español.
 
 > **Nota:** si juegas en PTU, asegúrate de descargar la versión compatible con esa rama del juego.
 
