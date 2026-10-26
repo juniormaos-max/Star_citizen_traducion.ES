@@ -7,19 +7,6 @@
 
 ---
 
-## 📋 Índice
-
-- [Sobre este proyecto](#sobre-este-proyecto)
-- [¿Qué versión elegir?](#qué-versión-elegir)
-- [Galería: antes y después](#galería-antes-y-despúes)
-- [Instalación paso a paso](#instalación-paso-a-paso)
-- [¿Qué está traducido?](#qué-está-traducido)
-- [Soporte y comunidad](#soporte-y-comunidad)
-- [Reportar errores o sugerencias](#reportar-errores-o-sugerencias)
-- [Créditos](#créditos)
-
----
-
 ## 🎮 Sobre este proyecto
 
 Traducción comunitaria del archivo de localización `global.ini` de **Star Citizen** al español, con dos variantes regionales:
