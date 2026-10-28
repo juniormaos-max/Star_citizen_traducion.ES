@@ -13,6 +13,7 @@ Traducción comunitaria del archivo de localización `global.ini` de **Star Citi
 
 - **ES** — español de España (uso de *vosotros*, vocabulario de España)
 - **Latam** — español de Latinoamérica (uso de *ustedes*, vocabulario neutro latinoamericano)
+- **EN** - una vercion en ingles con todo lo que esta en la version españa.
 
 El proyecto se construye sobre un pipeline propio de varias etapas de revisión y genera paquetes ZIP listos para instalar directamente en el juego.
 
