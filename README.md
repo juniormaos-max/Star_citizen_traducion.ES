@@ -1,4 +1,4 @@
-# 🚀 Star Citizen — Traducción al Español (ES / Latam)
+# 🚀 Star Citizen — Traducción al Español (ES / Latam / EN)
 
 [![Versión](https://img.shields.io/badge/versión-4.10.2-blue.svg)](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases)
 [![LIVE y PTU](https://img.shields.io/badge/compatible-LIVE%20%7C%20PTU-green.svg)](https://robertsspaceindustries.com)
