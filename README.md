@@ -40,6 +40,62 @@ El proyecto se construye sobre un pipeline propio de varias etapas de revisión 
 
 3. **Inicia el juego** y verifica que los textos aparezcan en español.
 
+---
+
+## ✅ ¿Qué está traducido?
+
+| Sistema | Estado | Notas |
+|---------|--------|-------|
+| Interfaz de usuario (UI) | ✅ Traducido | Incluye menús, HUD y pantallas |
+| Misiones y contratos | ✅ Traducido | Títulos, detalles y reputación |
+| Minería y commodities | ✅ Traducido | Firmas de escaneo, ubicaciones, materiales |
+| Crafting y fabricación | ✅ Traducido | Recetas, componentes, materiales |
+| Ítems y equipamiento | ✅ Traducido | Armas, armaduras, escudos, motores |
+| Pinturas de naves (Paint_*) | ⚠️ Parcial | Algunas claves adicionales pueden no estar traducidas |
+
+---
+
+## 🤝 Soporte y comunidad
+
+Si vas a crear una cuenta nueva en Star Citizen, se agradece si usas mi código de referencia:
+
+**STAR-6W9K-GDJB**
+
+👉 https://www.robertsspaceindustries.com/enlist?referral=STAR-6W9K-GDJB
+
+Únete al Discord de la comunidad CCBE:
+
+👉 https://discord.gg/8ZpvNM5qRB
+
+Web de la compañía CCBE:
+
+👉 https://ccbe.space/
+
+---
+
+## 🐛 Reportar errores o sugerencias
+
+Si encuentras textos sin traducir, errores de ortografía o problemas con la instalación, abre un issue en el repositorio:
+
+👉 [Nuevo issue en GitHub](https://github.com/juniormaos-max/Star_citizen_traducion.ES/issues)
+
+👉 Tambien puedes encontrarme en el discord de la CCBE https://discord.gg/8ZpvNM5qRB  para informar de errores de ortografía o problemas con la instalación.
+
+Incluye:
+- Versión del juego (LIVE)
+- Variante instalada (ES o Latam)
+- Captura de pantalla del error (si aplica)
+- Texto original y texto esperado
+
+---
+
+## 🏆 Créditos
+
+- **Pipeline de traducción:** desarrollo propio con etapas de revisión (`rev1 → rev2 → rev3`)
+- **Datos técnicos:** extraídos de los archivos DataForge de Star Citizen (crafting, minería, commodities)
+- **Imágenes y capturas:** aportes de la comunidad
+- **Soporte:** comunidad CCBE y Discord
+
 
 ---
 
@@ -112,62 +168,6 @@ Criaturas en New Babbage: **CUASI PASTADOR DE LA TUNDRA**.
 ![Contratos ahora](imagenes/contratos_ahora.png)
 
 En los contratos, la reputación (rep) aparece en los detalles de cada misión, no solo en los títulos.
-
----
-
-## ✅ ¿Qué está traducido?
-
-| Sistema | Estado | Notas |
-|---------|--------|-------|
-| Interfaz de usuario (UI) | ✅ Traducido | Incluye menús, HUD y pantallas |
-| Misiones y contratos | ✅ Traducido | Títulos, detalles y reputación |
-| Minería y commodities | ✅ Traducido | Firmas de escaneo, ubicaciones, materiales |
-| Crafting y fabricación | ✅ Traducido | Recetas, componentes, materiales |
-| Ítems y equipamiento | ✅ Traducido | Armas, armaduras, escudos, motores |
-| Pinturas de naves (Paint_*) | ⚠️ Parcial | Algunas claves adicionales pueden no estar traducidas |
-
----
-
-## 🤝 Soporte y comunidad
-
-Si vas a crear una cuenta nueva en Star Citizen, se agradece si usas mi código de referencia:
-
-**STAR-6W9K-GDJB**
-
-👉 https://www.robertsspaceindustries.com/enlist?referral=STAR-6W9K-GDJB
-
-Únete al Discord de la comunidad CCBE:
-
-👉 https://discord.gg/8ZpvNM5qRB
-
-Web de la compañía CCBE:
-
-👉 https://ccbe.space/
-
----
-
-## 🐛 Reportar errores o sugerencias
-
-Si encuentras textos sin traducir, errores de ortografía o problemas con la instalación, abre un issue en el repositorio:
-
-👉 [Nuevo issue en GitHub](https://github.com/juniormaos-max/Star_citizen_traducion.ES/issues)
-
-👉 Tambien puedes encontrarme en el discord de la CCBE https://discord.gg/8ZpvNM5qRB  para informar de errores de ortografía o problemas con la instalación.
-
-Incluye:
-- Versión del juego (LIVE)
-- Variante instalada (ES o Latam)
-- Captura de pantalla del error (si aplica)
-- Texto original y texto esperado
-
----
-
-## 🏆 Créditos
-
-- **Pipeline de traducción:** desarrollo propio con etapas de revisión (`rev1 → rev2 → rev3`)
-- **Datos técnicos:** extraídos de los archivos DataForge de Star Citizen (crafting, minería, commodities)
-- **Imágenes y capturas:** aportes de la comunidad
-- **Soporte:** comunidad CCBE y Discord
 
 ---
 
