@@ -16,7 +16,7 @@ Traducción comunitaria del archivo de localización `global.ini` de **Star Citi
 
 El proyecto se construye sobre un pipeline propio de varias etapas de revisión y genera paquetes ZIP listos para instalar directamente en el juego.
 
-> **Compatibilidad:** LIVE y PTU de Star Citizen.
+> **Compatibilidad:** LIVE de Star Citizen.
 
 ---
 
@@ -39,7 +39,6 @@ El proyecto se construye sobre un pipeline propio de varias etapas de revisión 
 
 3. **Inicia el juego** y verifica que los textos aparezcan en español.
 
-> **Nota:** si juegas en PTU, asegúrate de descargar la versión compatible con esa rama del juego.
 
 ---
 
@@ -78,8 +77,14 @@ Tabla de firmas de escaneo en el diario de minería del mobiGlas: relaciona cada
 Las fichas de materiales incluyen sus ubicaciones (dónde encontrarlos) y los datos blueprint (en qué se usan para fabricar).
 
 ![Minería en misiones](imagenes/mineria.png)
+![Minería en misiones](imagenes/mineria1.png)
+![Minería en misiones](imagenes/mineria2.png)
+![Minería en misiones](imagenes/mineria3.png)
 
-En las misiones de minería, los detalles de misión muestran las firmas de los materiales.
+En las misiones de minería o en las misiones de battaglia, los detalles de misión muestran las firmas de los materiales minables.
+En la primera foto de ANTES en el global.ini del juego no sale las firmas de los materiales minables esto lo busque yo y lo añadi ya que el proprio juego los tiene pero no la orden para aparecer en la pantalla.
+
+![Minería en misiones](imagenes/newbabbage.png)
 
 ### Antes y después: ascensor de Levski (Nyx)
 
@@ -87,7 +92,7 @@ En las misiones de minería, los detalles de misión muestran las firmas de los 
 
 ![Después: ADUANAS](imagenes/levskiahora.png)
 
-Pantalla del ascensor en Nyx (Levski): antes ponía **A ADUANAS** y ahora **ADUANAS**.
+Pantalla del ascensor en Nyx (Levski): antes ponía **CUSTOMS** y ahora **ADUANAS**.
 
 ![Aduana al salir del ascensor](imagenes/aduanaslesvki.png)
 
@@ -146,8 +151,10 @@ Si encuentras textos sin traducir, errores de ortografía o problemas con la ins
 
 👉 [Nuevo issue en GitHub](https://github.com/juniormaos-max/Star_citizen_traducion.ES/issues)
 
+👉 Tambien puedes encontrarme en el discord de la CCBE https://discord.gg/8ZpvNM5qRB  para informar de errores de ortografía o problemas con la instalación.
+
 Incluye:
-- Versión del juego (LIVE o PTU)
+- Versión del juego (LIVE)
 - Variante instalada (ES o Latam)
 - Captura de pantalla del error (si aplica)
 - Texto original y texto esperado
