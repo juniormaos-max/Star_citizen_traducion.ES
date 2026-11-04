@@ -110,6 +110,10 @@ Si vas a crear una cuenta nueva en Star Citizen, se agradece si usas mi código 
 
 👉 https://www.robertsspaceindustries.com/enlist?referral=STAR-6W9K-GDJB
 
+ MI Discord
+
+👉 https://discord.gg/dAGHrr6K2f
+
 Únete al Discord de la comunidad CCBE:
 
 👉 https://discord.gg/8ZpvNM5qRB
@@ -125,6 +129,8 @@ Web de la compañía CCBE:
 Si encuentras textos sin traducir, errores de ortografía o problemas con la instalación, abre un issue en el repositorio:
 
 👉 [Nuevo issue en GitHub](https://github.com/juniormaos-max/Star_citizen_traducion.ES/issues)
+
+👉 Tambien puedes informar en mi discord https://discord.gg/dAGHrr6K2f en el canal de https://discord.com/channels/283366132629504002/1567541287601840328
 
 👉 También puedes encontrarme en el Discord de la CCBE https://discord.gg/8ZpvNM5qRB para informar de errores de ortografía o problemas con la instalación.
 
