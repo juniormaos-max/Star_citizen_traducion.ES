@@ -221,7 +221,22 @@ Criaturas en New Babbage: **CUASI PASTADOR DE LA TUNDRA**.
 
 En los contratos, la reputación (rep) aparece en los detalles de cada misión, no solo en los títulos.
 
+### ANTES y AHORA:
+
+![Antes: en la pantalla de refinaria](imagenes/REFINARIA-ANTES.png)
+
+![AHORA: en la pantalla de refinaria](imagenes/REFINARIA-AHORA.png)
+
+![Antes: en la pantalla de la tienda en Levski](imagenes/TIENDA-ANTES.png)
+
+![AHORA: en la pantalla de la tienda en Levski](imagenes/TIENDA-AHORA.png)
+
 ---
 
-*Última actualización: versión compatible con Star Citizen 4.10.2*
+### IMPOSIBLE
 
+![Antes: en la pantalla de refinaria](imagenes/LOL.png)
+
+ES IMPOSIBLE TRADUCIR EN EL JUEGO (ORE SALES shop_name_oresales=ventas de mineral / TOUCH SCREEN TO START med_Start_TouchScreenToBegin=Toca la pantalla para comenzar)
+
+*Última actualización: versión compatible con Star Citizen 4.10.2*
