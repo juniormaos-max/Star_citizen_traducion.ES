@@ -231,6 +231,18 @@ En los contratos, la reputación (rep) aparece en los detalles de cada misión, 
 
 ![AHORA: en la pantalla de la tienda en Levski](imagenes/TIENDA-AHORA.png)
 
+![Antes: en la pantalla de refinaria](imagenes/asce-antes.png)
+
+![AHORA: en la pantalla de refinaria](imagenes/asce-ahora.png)
+
+![Antes: en la pantalla de la tienda en Levski](imagenes/asec1-antes.png)
+
+![AHORA: en la pantalla de la tienda en Levski](imagenes/asec1-ahora.png)
+
+![Antes: en la pantalla de la tienda en Levski](imagenes/mole-antes.png)
+
+![AHORA: en la pantalla de la tienda en Levski](imagenes/mole-ahora.png)
+
 ---
 
 ### IMPOSIBLE
