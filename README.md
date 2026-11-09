@@ -1,6 +1,6 @@
 # 🚀 Star Citizen — Traducción al Español (ES / EN)
 
-[![Versión](https://img.shields.io/badge/versión-4.10.2-blue.svg)](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases)
+[![Versión](https://img.shields.io/badge/versión-4.10.3-blue.svg)](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases)
 [![LIVE y PTU](https://img.shields.io/badge/compatible-LIVE%20%7C%20PTU-green.svg)](https://robertsspaceindustries.com)
 [![Español España](https://img.shields.io/badge/variante-ES-red.svg)](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases)
 [![Inglés Mejorado](https://img.shields.io/badge/idioma-EN-yellow.svg)](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases)
@@ -252,3 +252,4 @@ En los contratos, la reputación (rep) aparece en los detalles de cada misión, 
 ES IMPOSIBLE TRADUCIR EN EL JUEGO (ORE SALES shop_name_oresales=ventas de mineral / TOUCH SCREEN TO START med_Start_TouchScreenToBegin=Toca la pantalla para comenzar)
 
 *Última actualización: versión compatible con Star Citizen 4.10.2*
+
