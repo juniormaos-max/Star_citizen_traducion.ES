@@ -221,7 +221,7 @@ Criaturas en New Babbage: **CUASI PASTADOR DE LA TUNDRA**.
 
 En los contratos, la reputación (rep) aparece en los detalles de cada misión, no solo en los títulos.
 
-### ANTES y AHORA:
+### ANTES y AHORA: FECHA 09/11/2026
 
 ![Antes: en la pantalla de refinaria](imagenes/REFINARIA-ANTES.png)
 
