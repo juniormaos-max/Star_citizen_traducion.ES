@@ -130,7 +130,7 @@ Si encuentras textos sin traducir, errores de ortografía o problemas con la ins
 
 👉 [Nuevo issue en GitHub](https://github.com/juniormaos-max/Star_citizen_traducion.ES/issues)
 
-👉 Tambien puedes informar en mi discord https://discord.gg/dAGHrr6K2f en el canal de https://discord.com/channels/283366132629504002/1567541287601840328
+👉 Tambien puedes informar en mi discord en el canal de https://discord.com/channels/283366132629504002/1567541287601840328
 
 👉 También puedes encontrarme en el Discord de la CCBE https://discord.gg/8ZpvNM5qRB para informar de errores de ortografía o problemas con la instalación.
 
