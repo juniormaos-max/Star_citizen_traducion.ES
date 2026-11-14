@@ -11,7 +11,7 @@
 
 ### Navegación
 
-[Proyecto](#proyecto) · [Versiones](#versiones) · [Novedades](#novedades) · [Instalación](#instalacion) · [Contenido](#contenido) · [Mejoras técnicas](#mejoras-tecnicas) · [Galería](#galeria) · [Comunidad](#comunidad) · [Errores](#errores) · [Créditos](#creditos)
+[Proyecto](#proyecto) · [Versiones](#versiones) · [Novedades](#novedades) · [Instalación y Descarga](#instalacion) · [Contenido](#contenido) · [Mejoras técnicas](#mejoras-tecnicas) · [Galería](#galeria) · [Comunidad](#comunidad) · [Errores](#errores) · [Créditos](#creditos)
 
 <a id="proyecto"></a>
 ## 🎮 Sobre este proyecto
