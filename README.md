@@ -154,7 +154,7 @@ Incluye:
 
 ---
 
-### NOVEDADES 14/11/2026
+### NOVEDADES 14/11/2026 / 4.10.3 LIVE
 
 ![Contratos antes](imagenes/minerianaveantes.png)
 
