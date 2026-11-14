@@ -1,58 +1,62 @@
 # 🚀 Star Citizen — Traducción al Español (ES / EN)
 
 [![Versión](https://img.shields.io/badge/versión-4.10.3-blue.svg)](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases)
-[![LIVE y PTU](https://img.shields.io/badge/compatible-LIVE%20%7C%20PTU-green.svg)](https://robertsspaceindustries.com)
+[![Compatible con LIVE](https://img.shields.io/badge/compatible-LIVE-green.svg)](https://robertsspaceindustries.com)
 [![Español España](https://img.shields.io/badge/variante-ES-red.svg)](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases)
 [![Inglés Mejorado](https://img.shields.io/badge/idioma-EN-yellow.svg)](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases)
 
 ---
 
+> 🚀 **Última versión: 4.10.3-REV 3** — [Descargar desde GitHub Releases](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases). Incluye capturas nuevas y la corrección del problema que impedía mostrar la reputación (REP) y los planos en algunas misiones.
+
+### Navegación
+
+[Proyecto](#proyecto) · [Versiones](#versiones) · [Novedades](#novedades) · [Instalación](#instalacion) · [Contenido](#contenido) · [Mejoras técnicas](#mejoras-tecnicas) · [Galería](#galeria) · [Comunidad](#comunidad) · [Errores](#errores) · [Créditos](#creditos)
+
+<a id="proyecto"></a>
 ## 🎮 Sobre este proyecto
 
-Traducción comunitaria del archivo de localización `global.ini` de **Star Citizen** al español, con soporte también para una versión en inglés mejorada.
+Proyecto comunitario de localización de **Star Citizen**, basado en el archivo `global.ini`. Incluye una versión en español de España y otra en inglés con mejoras de datos técnicos.
 
 - **ES** — español de España (vocabulario de España, uso de *vosotros*)
-- **EN** — versión en inglés con todas las mejoras aplicadas (sufijos RS, firmas de escaneo, estadísticas, materiales, blueprints, mejoras de datos de crafting y minería)
+- **EN** — inglés con mejoras de minería, firmas RS, estadísticas, materiales y planos de fabricación.
 
-El proyecto se construye sobre un pipeline propio de varias etapas de revisión y genera paquetes ZIP listos para instalar directamente en el juego.
+El proyecto utiliza un proceso propio de revisión y genera paquetes ZIP listos para instalar.
 
-> **Compatibilidad:** LIVE de Star Citizen.
-
----
-
-## 🤝 Soporte y comunidad
-
-Si vas a crear una cuenta nueva en Star Citizen, se agradece si usas mi código de referencia:
-
-**STAR-6W9K-GDJB**
-
-👉 https://www.robertsspaceindustries.com/enlist?referral=STAR-6W9K-GDJB
-
- MI Discord
-
-👉 https://discord.gg/dAGHrr6K2f
-
- 👉 PARA saber cuando subo una nueva traduccion o un nuevo REV en github teneis el canal https://discord.com/channels/283366132629504002/1567550721400770580 en mi discord
-
-Únete al Discord de la comunidad CCBE:
-
-👉 https://discord.gg/8ZpvNM5qRB
-
-Web de la compañía CCBE:
-
-👉 https://ccbe.space/
+> **Compatibilidad:** Star Citizen LIVE.
 
 ---
 
+<a id="versiones"></a>
 ## 🔀 ¿Qué versión elegir?
 
 | Variante | Idioma | Región | Ideal para |
 |----------|--------|--------|------------|
 | **ES** | Español | España | Jugadores que prefieren el juego completamente en español |
-| **EN** | Inglés | Internacional | Jugadores que quieren el juego en inglés con mejoras técnicas (RS, stats, blueprints, materiales) |
+| **EN** | Inglés | Internacional | Jugadores que quieren el juego en inglés con mejoras técnicas (RS, estadísticas, planos y materiales) |
 
 ---
 
+<a id="novedades"></a>
+## 🆕 Novedades — 4.10.3-REV 3
+
+Esta revisión incluye imágenes nuevas y corrige un problema que impedía mostrar la reputación (REP) y los planos en algunas misiones.
+
+<p align="center">
+  <img src="imagenes/minerianaveantes.png" alt="Contratos de minería antes de los cambios" width="32%">
+  <img src="imagenes/minerianaveahora.png" alt="Contratos de minería después de los cambios" width="32%">
+  <img src="imagenes/nofallo.png" alt="Ejemplo de objetivo de minería generado dinámicamente" width="32%">
+</p>
+
+### Por qué el objetivo de minería aparece así
+
+El objetivo de la captura —por ejemplo, «Entrega 0/4 SCU de Aluminio (RS 4285, 8570, 12855, 17140, 21425, 25710) a Complejo de producción Greycat Stanton IV-A en microTech»— no está guardado como una frase completa en `global.ini`. El juego la construye en tiempo real combinando la acción, el progreso, la cantidad, el material y el destino de la misión.
+
+Por eso, buscar la oración completa en el archivo no encontrará una línea idéntica. La etiqueta del material es compartida entre misiones: `items_commodities_aluminum=Aluminio (RS 4285,8570,12855,17140,21425,25710)` puede reutilizarse en cualquier objetivo que incluya Aluminio. Si `(RS ...)` aparece en otra misión, es el resultado esperado de insertar esa misma etiqueta; no indica un fallo. El progreso, la cantidad y el destino pueden cambiar, mientras que el nombre del material y su RS proceden de la etiqueta compartida.
+
+---
+
+<a id="instalacion"></a>
 ## 📥 Instalación paso a paso
 
 1. **Descarga** la última versión desde los [releases](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases).
@@ -71,7 +75,8 @@ Web de la compañía CCBE:
 
 ---
 
-## ✅ ¿Qué está traducido / mejorado?
+<a id="contenido"></a>
+## ✅ ¿Qué incluye?
 
 ### Versión ES (Español de España)
 
@@ -79,12 +84,12 @@ Web de la compañía CCBE:
 |---------|--------|-------|
 | Interfaz de usuario (UI) | ✅ Traducido | Menús, HUD, pantallas, etiquetas |
 | Misiones y contratos | ✅ Traducido | Títulos, detalles, reputación, recompensas |
-| Minería y commodities | ✅ Traducido | Firmas de escaneo, ubicaciones, materiales |
-| Crafting y fabricación | ✅ Traducido | Recetas, componentes, materiales |
+| Minería y materias primas | ✅ Traducido | Firmas de escaneo, ubicaciones y materiales |
+| Fabricación y recetas | ✅ Traducido | Recetas, componentes y materiales |
 | Ítems y equipamiento | ✅ Traducido | Armas, armaduras, escudos, motores |
 | Pinturas de naves (Paint_*) | ✅ Traducido | Todas las claves de pintura traducidas |
-| RS (firmas de escaneo de minería) | ✅ Añadido | Sufijo `(RS ####)` en los 26 tipos de mineral minable |
-| Planetología Stanton | ✅ Traducido | Todos los planetas, estaciones, ubicaciones y descs |
+| RS (firmas de escaneo de minería) | ✅ Añadido | Datos RS para los 26 tipos de mineral minable |
+| Stanton | ✅ Traducido | Planetas, estaciones, ubicaciones y descripciones |
 | Pantalla de energía de nave | ✅ Traducido | `hud_Label_Offline`, `engineering_ui_Item_Output`, etc. |
 
 ### Versión EN (Inglés Mejorado)
@@ -92,27 +97,28 @@ Web de la compañía CCBE:
 | Sistema | Estado | Notas |
 |---------|--------|-------|
 | Interfaz de usuario (UI) | ✅ Inglés original | Todos los textos en inglés |
-| Sufijos RS (minería) | ✅ Añadido | `(RS ####)` en los 26 tipos de mineral minable |
+| Datos RS (minería) | ✅ Añadidos | Valores RS para los 26 tipos de mineral minable |
 | Firmas de escaneo / datos de minería | ✅ Fusionados | Desde enhancement INIs (DataForge XML) |
-| Estadísticas de ítems y componentes | ✅ Fusionadas | `components_desc_enhancements.ini`, `ships_desc_enhancements.ini`, `ship_weapons_desc_enhancements.ini`, `fps_weapons_desc_enhancements.ini`, `missile_enhancements.ini` |
-| Blueprints y materiales de crafting | ✅ Fusionados | `commodity_crafting_enhancements.ini` |
+| Estadísticas de objetos y componentes | ✅ Integradas | `components_desc_enhancements.ini`, `ships_desc_enhancements.ini`, `ship_weapons_desc_enhancements.ini`, `fps_weapons_desc_enhancements.ini`, `missile_enhancements.ini` |
+| Planos y materiales de fabricación | ✅ Fusionados | `commodity_crafting_enhancements.ini` |
 | Consumibles médicos | ✅ Fusionados | `medical_consumables_enhancements.ini` |
 | Diario | ✅ Fusionado | `journal_enhancements.ini` |
 | Recompensas de misión | ✅ Fusionadas | `mission_rewards_enhancements.ini` |
 
 ---
 
+<a id="mejoras-tecnicas"></a>
 ## 🛠 Mejoras técnicas aplicadas
 
 ### RS (Resource Signature) en minería
-Se añadió el sufijo `(RS ####)` a las 26 claves `mineabletype_primary_*` (agricium, aluminium, aslarite, beryl, bexalite, borase, copper, corundum, gold, hephaestanite, ice, iron, laranite, lindinium, ouratite, quantainium, quartz, riccite, savrillium, silicon, stileron, taranite, tin, titanium, torite, tungsten). Esto permite que las misiones de minería muestren la firma de escaneo de cada mineral en el diario del mobiGlas, en todas las ubicaciones (no solo en Battaglia). FOTOS MAS ABAJO CON LA INFORMACION.
+Se añadieron datos RS a las 26 claves `mineabletype_primary_*` (agricium, aluminium, aslarite, beryl, bexalite, borase, copper, corundum, gold, hephaestanite, ice, iron, laranite, lindinium, ouratite, quantainium, quartz, riccite, savrillium, silicon, stileron, taranite, tin, titanium, torite y tungsten). También se actualizaron las etiquetas de materias primas que reutilizan distintas interfaces. Consulta las capturas de la galería para ver ejemplos.
 
 ### Pantalla de energía de nave
 Se añadió `hud_Label_Offline` y se corrigió `engineering_ui_Item_Output` para que aparezcan correctamente en la interfaz de gestión de energía de la nave.
 
-### Fusionado de enhancement INIs (versión EN)
-Se fusionaron 9 archivos de enhancement generados desde DataForge XML (extraídos de Data.p4k con unp4k):
-- `commodity_crafting_enhancements.ini` — materiales y datos de crafting
+### Archivos de mejoras integrados (versión EN)
+Se integraron 9 archivos de mejoras generados a partir de datos DataForge extraídos de `Data.p4k` con `unp4k`:
+- `commodity_crafting_enhancements.ini` — materiales y datos de fabricación
 - `components_desc_enhancements.ini` — estadísticas de componentes de nave
 - `ships_desc_enhancements.ini` — descripciones de naves
 - `ship_weapons_desc_enhancements.ini` — armas de nave
@@ -120,23 +126,36 @@ Se fusionaron 9 archivos de enhancement generados desde DataForge XML (extraído
 - `missile_enhancements.ini` — misiles
 - `medical_consumables_enhancements.ini` — consumibles médicos
 - `journal_enhancements.ini` — diario
-- `mission_rewards_enhancements.ini` — recompensas de misión y blueprints
+- `mission_rewards_enhancements.ini` — recompensas de misión y planos
 
-Total: **4,228 claves actualizadas** en la versión ES y en la EN con datos de blueprints, stats y materiales.
+En total, se actualizaron **4.228 claves** entre las versiones ES y EN con datos de planos, estadísticas y materiales.
 
 ---
 
-## 🐛 Reportar errores o sugerencias
+<a id="comunidad"></a>
+## 🤝 Comunidad y soporte
 
-Si encuentras textos sin traducir, errores de ortografía o problemas con la instalación, abre un issue en el repositorio:
+Si vas a crear una cuenta nueva de Star Citizen, puedes usar mi código de referencia:
 
-👉 [Nuevo issue en GitHub](https://github.com/juniormaos-max/Star_citizen_traducion.ES/issues)
+**STAR-6W9K-GDJB**
 
-👉 Tambien puedes informar en mi discord en el canal de https://discord.com/channels/283366132629504002/1567541287601840328
+[Crear cuenta con el código de referencia](https://www.robertsspaceindustries.com/enlist?referral=STAR-6W9K-GDJB)
 
-👉 También puedes encontrarme en el Discord de la CCBE https://discord.gg/8ZpvNM5qRB para informar de errores de ortografía o problemas con la instalación.
+También puedes seguir las novedades o contactar con la comunidad:
 
-Incluye:
+- [Mi Discord](https://discord.gg/dAGHrr6K2f)
+- [Canal de novedades del proyecto](https://discord.com/channels/283366132629504002/1567550721400770580)
+- [Discord de la comunidad CCBE](https://discord.gg/8ZpvNM5qRB)
+- [Web de CCBE](https://ccbe.space/)
+
+---
+
+<a id="errores"></a>
+## 🐛 Errores y sugerencias
+
+Si encuentras textos sin traducir, errores de ortografía o problemas de instalación, [abre un issue en GitHub](https://github.com/juniormaos-max/Star_citizen_traducion.ES/issues). También puedes avisar en el [canal de Discord para reportes](https://discord.com/channels/283366132629504002/1567541287601840328).
+
+Al informar de un problema, incluye:
 - Versión del juego (LIVE)
 - Variante instalada (ES / EN)
 - Captura de pantalla del error (si aplica)
@@ -144,37 +163,18 @@ Incluye:
 
 ---
 
+<a id="creditos"></a>
 ## 🏆 Créditos
 
-- **Pipeline de traducción:** desarrollo propio con etapas de revisión (`rev1 → rev2 → rev3`)
-- **Datos técnicos:** extraídos de los archivos DataForge de Star Citizen (crafting, minería, commodities)
-- **Herramientas:** `unp4k` para extracción de Data.p4k, `generate_enhancements_ini.py` y `gen_commodity_crafting.py` y `global.ini` para generación de enhancement INIs
+- **Proceso de traducción:** desarrollo propio con varias etapas de revisión (`rev1 → rev2 → rev3`)
+- **Datos técnicos:** archivos DataForge de Star Citizen (fabricación, minería y materias primas)
+- **Herramientas:** `unp4k` para extraer `Data.p4k`, además de `generate_enhancements_ini.py` y `gen_commodity_crafting.py` para generar archivos de mejoras
 - **Imágenes y capturas:** aportes de la comunidad
 - **Soporte:** comunidad CCBE y Discord
 
 ---
 
-### NOVEDADES 14/11/2026 / 4.10.3 LIVE
-
-![Contratos antes](imagenes/minerianaveantes.png)
-
-![Contratos ahora](imagenes/minerianaveahora.png)
-
-![Contratos no es fallo](imagenes/nofallo.png)
-
-### Cómo se construyen los objetivos de minería
-
-El objetivo que aparece en la imagen por ejemplo, «Entrega 0/4 SCU de Aluminio (RS 4285, 8570, 12855, 17140, 21425, 25710) a Complejo de producción Greycat Stanton IV-A en microTech» no está guardado como una frase completa en `global.ini`. El juego lo compone en tiempo real con varias piezas:
-
-- el texto de la acción, como «Entrega»;
-- el progreso y la cantidad solicitada, como «0/4 SCU»;
-- el nombre del material y su firma RS, a partir de la etiqueta de ese material;
-- el destino concreto de la misión, que el juego determina al generarla.
-
-Por eso, buscar la oración completa en el archivo no encontrará una línea idéntica. El `global.ini` aporta los textos localizables por ejemplo, el nombre de la mercancía y el juego los combina con los datos variables de la misión. Que el objetivo se muestre como una frase dinámica no significa que falte una traducción ni que las firmas RS sean un texto independiente de la misión.
-
-**La etiqueta del material es compartida entre misiones.** Por ejemplo, `items_commodities_aluminum=Aluminio (RS 4285,8570,12855,17140,21425,25710)` no pertenece a un contrato concreto: el juego reutiliza ese nombre al construir cualquier objetivo que incluya Aluminio. Por eso, si aparece `(RS ...)` en otra misión, es el resultado esperado de insertar la misma etiqueta en otra frase dinámica, no un fallo. El progreso, la cantidad y el destino pueden cambiar de una misión a otra; el nombre del material y su RS proceden de la etiqueta compartida.
-
+<a id="galeria"></a>
 ## 🖼️ Galería: antes y después
 
 A continuación se muestran ejemplos reales de la traducción en el juego.
@@ -207,28 +207,28 @@ Tabla de firmas de escaneo en el diario de minería del mobiGlas: relaciona cada
 
 ![Ubicaciones de materiales](imagenes/hielopresu.png)
 
-Las fichas de materiales incluyen sus ubicaciones (dónde encontrarlos) y los datos blueprint (en qué se usan para fabricar).
+Las fichas de materiales incluyen ubicaciones y datos de planos (en qué se usan para fabricar).
 
 ![Minería en misiones](imagenes/mineria.png)
 ![Minería en misiones](imagenes/mineria1.png)
 ![Minería en misiones](imagenes/mineria2.png)
 ![Minería en misiones](imagenes/mineria3.png)
 
-En las misiones de minería o en las misiones de battaglia, los detalles de misión muestran las firmas de los materiales minables.
+En algunas misiones de minería y de Battaglia, los objetivos muestran las firmas RS de los materiales minables.
 
 ![Minería en misiones](imagenes/newbabbage.png)
 
 ### Antes y después: ascensor de Levski (Nyx)
 
-![Antes: A ADUANAS](imagenes/levskiantes.png)
+![Antes: el ascensor muestra el texto original](imagenes/levskiantes.png)
 
-![Después: ADUANAS](imagenes/levskiahora.png)
+![Después: el ascensor muestra «ADUANAS»](imagenes/levskiahora.png)
 
-Pantalla del ascensor en Nyx (Levski): antes ponía **CUSTOMS** y ahora **ADUANAS**.
+En el ascensor de Levski, el texto **CUSTOMS** aparece traducido como **ADUANAS**.
 
 ![Aduana al salir del ascensor](imagenes/aduanaslesvki.png)
 
-Al salir del ascensor en Levski está la aduana en el juego; en el `global.ini` se dejó tal cual: **ADUANAS**.
+La señalización de la aduana al salir del ascensor también aparece en español.
 
 ### Criaturas de New Babbage
 
@@ -242,37 +242,44 @@ Criaturas en New Babbage: **CUASI PASTADOR DE LA TUNDRA**.
 
 ![Contratos ahora](imagenes/contratos_ahora.png)
 
-En los contratos, la reputación (rep) aparece en los detalles de cada misión, no solo en los títulos.
+En los contratos, la reputación (REP) aparece en los detalles de la misión, además de en el título.
 
-### ANTES y AHORA:
+### Refinerías y tiendas: antes y después
 
-![Antes: en la pantalla de refinaria](imagenes/REFINARIA-ANTES.png)
+![Antes: pantalla de la refinería](imagenes/REFINARIA-ANTES.png)
 
-![AHORA: en la pantalla de refinaria](imagenes/REFINARIA-AHORA.png)
+![Después: pantalla de la refinería](imagenes/REFINARIA-AHORA.png)
 
-![Antes: en la pantalla de la tienda en Levski](imagenes/TIENDA-ANTES.png)
+![Antes: tienda de Levski](imagenes/TIENDA-ANTES.png)
 
-![AHORA: en la pantalla de la tienda en Levski](imagenes/TIENDA-AHORA.png)
+![Después: tienda de Levski](imagenes/TIENDA-AHORA.png)
 
-![Antes: en la pantalla de refinaria](imagenes/asce-antes.png)
+![Antes: pantalla de ASEC](imagenes/asce-antes.png)
 
-![AHORA: en la pantalla de refinaria](imagenes/asce-ahora.png)
+![Después: pantalla de ASEC](imagenes/asce-ahora.png)
 
-![Antes: en la pantalla de la tienda en Levski](imagenes/asec1-antes.png)
+![Antes: tienda de ASEC](imagenes/asec1-antes.png)
 
-![AHORA: en la pantalla de la tienda en Levski](imagenes/asec1-ahora.png)
+![Después: tienda de ASEC](imagenes/asec1-ahora.png)
 
-![Antes: en la pantalla de la tienda en Levski](imagenes/mole-antes.png)
+![Antes: tienda de minería](imagenes/mole-antes.png)
 
-![AHORA: en la pantalla de la tienda en Levski](imagenes/mole-ahora.png)
+![Después: tienda de minería](imagenes/mole-ahora.png)
 
 ---
 
-### IMPOSIBLE
+### Limitaciones conocidas
 
-![Antes: en la pantalla de refinaria](imagenes/LOL.png)
+![Ejemplo de textos que no cambian con la localización](imagenes/LOL.png)
 
-ES IMPOSIBLE TRADUCIR EN EL JUEGO (ORE SALES shop_name_oresales=ventas de mineral / TOUCH SCREEN TO START med_Start_TouchScreenToBegin=Toca la pantalla para comenzar)
+En las pruebas realizadas, estos textos no cambiaron al modificar sus entradas en `global.ini`. Por ahora, no se pueden traducir desde este paquete:
 
-*Última actualización: versión compatible con Star Citizen 4.10.2*
+| Texto del juego | Clave de localización | Traducción prevista |
+|---|---|---|
+| `ORE SALES` | `shop_name_oresales` | Ventas de mineral |
+| `TOUCH SCREEN TO START` | `med_Start_TouchScreenToBegin` | Toca la pantalla para comenzar |
+
+---
+
+*Última actualización: 14 de noviembre de 2026 — Star Citizen LIVE 4.10.3-REV 3.*
 
