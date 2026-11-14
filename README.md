@@ -7,7 +7,7 @@
 
 ---
 
-> 🚀 **Última versión: 4.10.3-REV 3** — [Descargar desde GitHub Releases](https://github.com/juniormaos-max/Star_citizen_traducion.ES/releases). Incluye capturas nuevas y la corrección del problema que impedía mostrar la reputación (REP) y los planos en algunas misiones.
+> 🚀 **Última versión: 4.10.3-REV 3** . Incluye capturas nuevas y la corrección del problema que impedía mostrar la reputación (REP) y los planos en algunas misiones.
 
 ### Navegación
 
