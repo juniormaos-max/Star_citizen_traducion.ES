@@ -164,14 +164,14 @@ Incluye:
 
 ### Cómo se construyen los objetivos de minería
 
-El objetivo que aparece en la imagen —por ejemplo, «Entrega 0/4 SCU de Aluminio (RS 4285, 8570, 12855, 17140, 21425, 25710) a Complejo de producción Greycat Stanton IV-A en microTech»— no está guardado como una frase completa en `global.ini`. El juego lo compone en tiempo real con varias piezas:
+El objetivo que aparece en la imagen por ejemplo, «Entrega 0/4 SCU de Aluminio (RS 4285, 8570, 12855, 17140, 21425, 25710) a Complejo de producción Greycat Stanton IV-A en microTech» no está guardado como una frase completa en `global.ini`. El juego lo compone en tiempo real con varias piezas:
 
 - el texto de la acción, como «Entrega»;
 - el progreso y la cantidad solicitada, como «0/4 SCU»;
 - el nombre del material y su firma RS, a partir de la etiqueta de ese material;
 - el destino concreto de la misión, que el juego determina al generarla.
 
-Por eso, buscar la oración completa en el archivo no encontrará una línea idéntica. El `global.ini` aporta los textos localizables —por ejemplo, el nombre de la mercancía— y el juego los combina con los datos variables de la misión. Que el objetivo se muestre como una frase dinámica no significa que falte una traducción ni que las firmas RS sean un texto independiente de la misión.
+Por eso, buscar la oración completa en el archivo no encontrará una línea idéntica. El `global.ini` aporta los textos localizables por ejemplo, el nombre de la mercancía y el juego los combina con los datos variables de la misión. Que el objetivo se muestre como una frase dinámica no significa que falte una traducción ni que las firmas RS sean un texto independiente de la misión.
 
 **La etiqueta del material es compartida entre misiones.** Por ejemplo, `items_commodities_aluminum=Aluminio (RS 4285,8570,12855,17140,21425,25710)` no pertenece a un contrato concreto: el juego reutiliza ese nombre al construir cualquier objetivo que incluya Aluminio. Por eso, si aparece `(RS ...)` en otra misión, es el resultado esperado de insertar la misma etiqueta en otra frase dinámica, no un fallo. El progreso, la cantidad y el destino pueden cambiar de una misión a otra; el nombre del material y su RS proceden de la etiqueta compartida.
 
