@@ -50,7 +50,7 @@ Esta revisión incluye imágenes nuevas y corrige un problema que impedía mostr
 
 ### Por qué el objetivo de minería aparece así
 
-El objetivo de la captura —por ejemplo, «Entrega 0/4 SCU de Aluminio (RS 4285, 8570, 12855, 17140, 21425, 25710) a Complejo de producción Greycat Stanton IV-A en microTech»— no está guardado como una frase completa en `global.ini`. El juego la construye en tiempo real combinando la acción, el progreso, la cantidad, el material y el destino de la misión.
+El objetivo de la captura por ejemplo, «Entrega 0/4 SCU de Aluminio (RS 4285, 8570, 12855, 17140, 21425, 25710) a Complejo de producción Greycat Stanton IV-A en microTech» no está guardado como una frase completa en `global.ini`. El juego la construye en tiempo real combinando la acción, el progreso, la cantidad, el material y el destino de la misión.
 
 Por eso, buscar la oración completa en el archivo no encontrará una línea idéntica. La etiqueta del material es compartida entre misiones: `items_commodities_aluminum=Aluminio (RS 4285,8570,12855,17140,21425,25710)` puede reutilizarse en cualquier objetivo que incluya Aluminio. Si `(RS ...)` aparece en otra misión, es el resultado esperado de insertar esa misma etiqueta; no indica un fallo. El progreso, la cantidad y el destino pueden cambiar, mientras que el nombre del material y su RS proceden de la etiqueta compartida.
 
