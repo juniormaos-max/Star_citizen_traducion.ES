@@ -20,6 +20,30 @@ El proyecto se construye sobre un pipeline propio de varias etapas de revisión 
 
 ---
 
+## 🤝 Soporte y comunidad
+
+Si vas a crear una cuenta nueva en Star Citizen, se agradece si usas mi código de referencia:
+
+**STAR-6W9K-GDJB**
+
+👉 https://www.robertsspaceindustries.com/enlist?referral=STAR-6W9K-GDJB
+
+ MI Discord
+
+👉 https://discord.gg/dAGHrr6K2f
+
+ 👉 PARA saber cuando subo una nueva traduccion o un nuevo REV en github teneis el canal https://discord.com/channels/283366132629504002/1567550721400770580 en mi discord
+
+Únete al Discord de la comunidad CCBE:
+
+👉 https://discord.gg/8ZpvNM5qRB
+
+Web de la compañía CCBE:
+
+👉 https://ccbe.space/
+
+---
+
 ## 🔀 ¿Qué versión elegir?
 
 | Variante | Idioma | Región | Ideal para |
@@ -99,30 +123,6 @@ Se fusionaron 9 archivos de enhancement generados desde DataForge XML (extraído
 - `mission_rewards_enhancements.ini` — recompensas de misión y blueprints
 
 Total: **4,228 claves actualizadas** en la versión ES y en la EN con datos de blueprints, stats y materiales.
-
----
-
-## 🤝 Soporte y comunidad
-
-Si vas a crear una cuenta nueva en Star Citizen, se agradece si usas mi código de referencia:
-
-**STAR-6W9K-GDJB**
-
-👉 https://www.robertsspaceindustries.com/enlist?referral=STAR-6W9K-GDJB
-
- MI Discord
-
-👉 https://discord.gg/dAGHrr6K2f
-
- 👉 PARA saber cuando subo una nueva traduccion o un nuevo REV en github teneis el canal https://discord.com/channels/283366132629504002/1567550721400770580 en mi discord
-
-Únete al Discord de la comunidad CCBE:
-
-👉 https://discord.gg/8ZpvNM5qRB
-
-Web de la compañía CCBE:
-
-👉 https://ccbe.space/
 
 ---
 
